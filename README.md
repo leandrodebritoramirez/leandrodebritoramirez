@@ -1,1 +1,1 @@
-Primeiro projetp Alura.
+Primeiro projeto Alura.

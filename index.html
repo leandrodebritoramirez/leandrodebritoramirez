@@ -11,54 +11,55 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
+    <main>
 
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.alura.com.br/">
-                        <img src="Assets/Vector.png" alt="Logo da Alura." class="img">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.alura.com.br/">
+                            <img src="Assets/Vector.png" alt="Logo da Alura." class="img">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<div class="container">
-    <div class="encriptar">
-        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite o seu texto aqui..." class="texto"></textarea>
-        <div class="frase">
-            <p>Somente letras minúsculas e sem acentos.</p>
+        <div class="container">
+            <div class="encriptar">
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite o seu texto aqui..." class="texto"></textarea>
+                <div class="frase">
+                <p>Somente letras minúsculas e sem acentos.</p>
+            </div>
+            <div class="botoes">
+                <input type="button" class="btn-encriptar" value="Codificar" onclick="encriptar()">
+                <input type="button" class="btn-copiar" value="Copiar Texto" onclick="copiar()">
+                <input type="button" class="btn-limpar" value="Limpar Texto" onclick="limpar()">
+                <input type="button" class="btn-desencriptar" value="Decodificar" onclick="desencriptar()">
+            </div>
         </div>
-        <div class="botoes">
-            <input type="button" class="btn-encriptar" value="Codificar" onclick="encriptar()">
-            <input type="button" class="btn-copiar" value="Copiar Texto" onclick="copiar()">
-            <input type="button" class="btn-limpar" value="Limpar Texto" onclick="limpar()">
-            <input type="button" class="btn-desencriptar" value="Decodificar" onclick="desencriptar()">
+
+
+        <div class="encriptado">
+            <div class="mensagem-encriptado" id="mensagem-encriptado">
+                <img src="Assets/pesquisador.jpg" alt="pesquisador" id="pesquisador">
+                <h2 id="titulo-mensagem">Nenhuma mensagem encotrada.</h2>
+                <p id="paragrafo">Digite um texto que você deseja encriptar ou desencriptar.</p>
+            </div>
         </div>
-    </div>
 
-
-    <div class="encriptado">
-        <img src="Assets/pesquisador.jpg" alt="pesquisador" id="pesquisador">
-        <div class="mensagem-encriptado" id="mensagem-encriptado">
-            <h2 id="titulo-mensagem">Nenhuma mensagem encotrada.</h2>
-            <p id="paragrafo">Digite um texto que você deseja encriptar ou desencriptar.</p>
-        </div>
-    </div>
-</div>
-
-    <footer>
-        <nav>
-            <a href="https://www.linkedin.com/in/leandrodebritoramirez/">
-            <img src="Assets/icone-Linkedin.png" alt="Meu Linkedin." class="linkedin">
-            </a>
-            <a href="https://www.github.com/in/leandrodebritoramirez/leandrodebritoramirez">
-                <img src="Assets/icons8-github-36.png" alt="Meu github." class="github
-                ">
-            </a>
-        </nav>
-    </footer>
+        <footer>
+            <nav>
+                <a href="https://www.linkedin.com/in/leandrodebritoramirez/">
+                <img src="Assets/icone-Linkedin.png" alt="Meu Linkedin." class="linkedin">
+                </a>
+                <a href="https://www.github.com/in/leandrodebritoramirez/leandrodebritoramirez">
+                    <img src="Assets/icons8-github-36.png" alt="Meu github." class="github
+                    ">
+                </a>
+            </nav>
+        </footer>
+    </main>    
 </body>
 <script src="JS/script.js"></script>
 </html>

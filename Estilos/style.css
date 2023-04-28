@@ -266,10 +266,6 @@ header .img:hover {
     }
 
     #btn-copiar, #btn-limpar {
-        width: 19%;
-        border-radius: 16px;
-        font-size: 30%;
-    }
     .btn-encriptar:hover, .btn-desencriptar:hover, #btn-copiar:hover, #btn-limpar:hover {
         margin: 0.3%;
         width: 37.5%;

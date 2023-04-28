@@ -13,7 +13,6 @@ header {
 
 header .img {
     margin-left: 70px;
-    padding-top: 15px;
     padding-top: 10px;
     height: 100%;
 }
@@ -260,15 +259,12 @@ header .img:hover {
         top: 45%;
         margin-top: 4%;
     }
-    .btn-encriptar, .btn-desencriptar {
     .btn-encriptar, .btn-desencriptar, .btn-copiar, .btn-limpar {
         width: 19%;
         border-radius: 16px;
         font-size: 30%;
     }
 
-    #btn-copiar, #btn-limpar {
-    .btn-encriptar:hover, .btn-desencriptar:hover, #btn-copiar:hover, #btn-limpar:hover {
     .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover, .btn-limpar:hover {
         margin: 0.3%;
         width: 37.5%;
